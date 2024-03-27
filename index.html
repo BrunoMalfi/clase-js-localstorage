@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <h1>Ejercicio Local Storage </h1>
+    <form>
+        <fieldset>
+            <legend>Formulario </legend>
+            <label for="Nombre">Nombre : </label>
+            <input type="text" id="nombre" name="Nombre" autofocus tabindex="1" placeholder="Pepito"><br />
+            <label for="Apellido">Correo : </label>
+            <input type="text" id="correo" name="correo" tabindex="2" placeholder="pepito@gmail.com" /><br/>
+            <label for="mensaje">Mensaje : </label>
+            <input type="text" id="mensaje" name="mensaje" tabindex="3" placeholder="Hola pepito ..." />
+        </fieldset>
+        <input type="submit" value="Enviar" id="submit1">
+        <input type="reset" value="Reset" id="reset1">
+    </form>
+    <p id ="localStorageParagraphOutput"></p>
+    <div id="localStorageDivSection">
+
+    </div>
+    <script src="./scripts/script.js"></script>
+</body>
+</html>
